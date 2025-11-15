@@ -20,21 +20,20 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-.npmrc
 output
 *.msi
 *.deb
 *.AppImage
 *.dmg
+*.app
 
-package-lock.json
-yarn.lock
-pnpm-lock.yaml
 dist
 !dist/about_pake.html
 !dist/cli.js
 !dist/.gitkeep
-src-tauri/.cargo/config
+src-tauri/.cargo/config.toml
 src-tauri/.cargo/
 .next
 src-tauri/.pake/
+src-tauri/gen
+*.tmp
